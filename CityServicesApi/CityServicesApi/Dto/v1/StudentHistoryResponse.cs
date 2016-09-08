@@ -9,8 +9,8 @@ namespace CityServicesApi.Dto.v1
     public class StudentSubject
     {
         public int SubjectId { get; set; }
-        public string subjectName { get; set; }
-        public Decimal grade { get; set; }
+        public string SubjectName { get; set; }
+        public Decimal Grade { get; set; }
     }
 
     public class StudentHistoryResponse

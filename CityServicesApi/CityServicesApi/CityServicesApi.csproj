@@ -121,22 +121,27 @@
     <Compile Include="Controllers\v1\RealtyController.cs" />
     <Compile Include="Controllers\v1\ServiceOrdersController.cs" />
     <Compile Include="Controllers\v1\ServicesController.cs" />
+    <Compile Include="Controllers\v1\StudentController.cs" />
     <Compile Include="Data\PetAdoptionOrderRepository.cs" />
     <Compile Include="Data\PublicPlaceRepository.cs" />
     <Compile Include="Data\RealtyRepository.cs" />
     <Compile Include="Data\ServiceOrderRepository.cs" />
+    <Compile Include="Data\StudentRepository.cs" />
     <Compile Include="Dto\v1\PetAdoptionRequest.cs" />
     <Compile Include="Dto\v1\RealtyTaxValueResponse.cs" />
     <Compile Include="Dto\v1\ServiceOrderRequest.cs" />
+    <Compile Include="Dto\v1\StudentHistoryResponse.cs" />
     <Compile Include="Exception\CityServiceException.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\SubjectStudent.cs" />
     <Compile Include="Models\PetAdoptionOrder.cs" />
     <Compile Include="Models\PublicPlace.cs" />
     <Compile Include="Models\Realty.cs" />
     <Compile Include="Models\Service.cs" />
     <Compile Include="Models\ServiceOrder.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Subject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

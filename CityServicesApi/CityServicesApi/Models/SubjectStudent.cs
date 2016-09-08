@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityServicesApi.Models
 {
-    class SubjectStudent
+    public class SubjectStudent
     {
         public Student Student;
         public Subject Subject;
