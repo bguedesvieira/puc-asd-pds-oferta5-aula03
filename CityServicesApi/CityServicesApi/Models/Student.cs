@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace CityServicesApi.Models
 {
-    public class DogAdoptionOrder
+    public class Student
     {
         public int Id { get; set; }
-        public string Cpf { get; set; }
-        public string Adress { get; set; }
         public string Name { get; set; }
+        public 
     }
 }

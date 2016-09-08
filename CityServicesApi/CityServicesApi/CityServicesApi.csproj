@@ -116,19 +116,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\v1\DogAdoptionOrdersController.cs" />
+    <Compile Include="Controllers\v1\PetAdoptionOrdersController.cs" />
     <Compile Include="Controllers\v1\PublicPlacesController.cs" />
+    <Compile Include="Controllers\v1\RealtyController.cs" />
     <Compile Include="Controllers\v1\ServiceOrdersController.cs" />
     <Compile Include="Controllers\v1\ServicesController.cs" />
+    <Compile Include="Data\PetAdoptionOrderRepository.cs" />
     <Compile Include="Data\PublicPlaceRepository.cs" />
+    <Compile Include="Data\RealtyRepository.cs" />
     <Compile Include="Data\ServiceOrderRepository.cs" />
-    <Compile Include="Dto\v1\AdocaoRequest.cs" />
+    <Compile Include="Dto\v1\PetAdoptionRequest.cs" />
+    <Compile Include="Dto\v1\RealtyTaxValueResponse.cs" />
     <Compile Include="Dto\v1\ServiceOrderRequest.cs" />
     <Compile Include="Exception\CityServiceException.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DogAdoptionOrder.cs" />
+    <Compile Include="Models\PetAdoptionOrder.cs" />
     <Compile Include="Models\PublicPlace.cs" />
     <Compile Include="Models\Realty.cs" />
     <Compile Include="Models\Service.cs" />
