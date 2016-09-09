@@ -16,13 +16,13 @@ namespace CityServicesApi.Controllers.v1
     {
         private PetAdoptionOrderRepository _petAdoptionOrderRepository = new PetAdoptionOrderRepository();
 
-        // GET: api/v1/DogAdoptionOrders
+        // GET: api/v1/PetAdoptionOrders
         public IEnumerable<PetAdoptionOrder> Get()
         {
             return _petAdoptionOrderRepository.GetAllPetAdoptionOrder();
         }
 
-        // GET: api/DogAdoptionOrders/5
+        // GET: api/PetAdoptionOrders/5
         public IHttpActionResult Get(int id)
         {
             var adoption = _petAdoptionOrderRepository.GetPetAdoptionOrder(id);

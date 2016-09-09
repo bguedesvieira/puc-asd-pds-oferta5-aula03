@@ -12,5 +12,6 @@ namespace CityServicesApi.Models
         public string Type { get; set; }
         public string Name { get; set; }
         public int PostalCode { get; set; }
+        public string GarbageCollection { get; set; }
     }
 }
